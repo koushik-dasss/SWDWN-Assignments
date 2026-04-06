@@ -1,0 +1,135 @@
+Outputs of all Questions :- 
+
+Qs. 1 :- 
+
+node Q1_Faculty.js
+Employee Name: Koushik Das, ID: 14
+Faculty Name: Roman Reigns, Subject: Node.js
+
+Qs. 2 :-
+
+node Q2_App.js
+Count:  1
+Count:  2
+
+Qs. 3 :-
+
+node Q3_App2.js
+[ 'Koushik', 'Roman' ]
+
+Qs. 4 :-
+node Q4_app.js
+0
+1
+
+Qs. 5 :-
+node Q5_CircularDependency.js
+Hello from B
+Hello from A
+
+Qs. 6 :-
+node Q6_CPS.js
+Data received.
+
+node Q6_NonCPS.js
+5
+
+Qs. 7 :-
+node Q7_synchronous.js
+Start
+Done
+End
+
+node Q7_asynchronous_await.js
+Start
+Done
+End
+
+Qs. 8 :-
+node Q8_NotificationSystem.js
+Email:  Your order shipped
+SMS:  Your order shipped
+Push:  Your order shipped
+
+Qs. 9 :- 
+node Q9_EventEmitter.js
+Done
+
+Qs. 10 :-
+node Q10_GlobalModules.js
+/home/koushikdas/Desktop/SWDWN Assignments/Assignment-1
+/home/koushikdas/Desktop/SWDWN Assignments/Assignment-1/Q10_GlobalModules.js
+linux
+
+(change the name as per the name of your device )
+
+Qs. 11 :-
+node Q11_CallbackHell.js
+Step 1
+Step 2
+Step 3
+
+Qs. 12 :-
+node Q12_Parallel.js
+Parallel Time
+Finished Task 1
+Finished Task 2
+
+node Q12_Sequential.js
+Sequential Time
+Finished task 1
+Finished task 2
+
+Qs. 13 :-
+node Q13_Async.js
+1
+2
+
+Qs. 14 :-
+Memory Leak Error
+
+
+<--- Last few GCs --->
+
+[6762:0x2e744000]    27733 ms: Mark-Compact (reduce) 2047.4 (2054.7) -> 2047.4 (2051.7) MB, pooled: 0 MB, 159.68 / 0.00 ms  (+ 63.6 ms in 0 steps since start of marking, biggest step 0.0 ms, walltime since start of marking 257 ms) (average mu = 0.736, cur
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory
+----- Native stack trace -----
+
+ 1: 0xe42d60 node::OOMErrorHandler(char const*, v8::OOMDetails const&) [node]
+ 2: 0x121ddd0 v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, v8::OOMDetails const&) [node]
+ 3: 0x121e0a7 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, v8::OOMDetails const&) [node]
+ 4: 0x144ba05  [node]
+ 5: 0x1465299 v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [node]
+ 6: 0x1439948 v8::internal::HeapAllocator::AllocateRawWithLightRetrySlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [node]
+ 7: 0x143a875 v8::internal::HeapAllocator::AllocateRawWithRetryOrFailSlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [node]
+ 8: 0x1412c6e v8::internal::Factory::AllocateRaw(int, v8::internal::AllocationType, v8::internal::AllocationAlignment) [node]
+ 9: 0x14012cc v8::internal::FactoryBase<v8::internal::Factory>::AllocateRawArray(int, v8::internal::AllocationType) [node]
+10: 0x1401cc2 v8::internal::FactoryBase<v8::internal::Factory>::NewFixedArray(int, v8::internal::AllocationType) [node]
+11: 0x15e2d76  [node]
+12: 0x15f9d42  [node]
+13: 0x1619bb3  [node]
+14: 0x161d035 v8::internal::ArrayConstructInitializeElements(v8::internal::Handle<v8::internal::JSArray>, v8::internal::Arguments<(v8::internal::ArgumentsType)1>*) [node]
+15: 0x18616fd v8::internal::Runtime_NewArray(int, unsigned long*, v8::internal::Isolate*) [node]
+16: 0x7a9c5ee6c476 
+Aborted (core dumped)
+
+Qs. 15 :-
+ode Q15_SyncToAsync.js
+    _________________
+
+   |  Node.js Rulez  |
+   |_________________|
+          |  |
+          |  |
+   _______|__|_______
+  /                  \
+ /   (o)        (o)   \
+
+|          __          |
+|         |__|         |
+ \____________________/
+
+File read completed
