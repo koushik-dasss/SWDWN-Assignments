@@ -92,6 +92,7 @@ node Q13_Async.js
 2
 
 Qs. 14 :-
+node Q14_MemoryLeak.js
 Memory Leak Error
 
 
@@ -123,19 +124,9 @@ FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memor
 Aborted (core dumped)
 
 Qs. 15 :-
-ode Q15_SyncToAsync.js
-    _________________
+node Q15_SyncToAsync.js
 
-   |  Node.js Rulez  |
-   |_________________|
-          |  |
-          |  |
-   _______|__|_______
-  /                  \
- /   (o)        (o)   \
 
-|          __          |
-|         |__|         |
- \____________________/
+// Content of the data.txt file 
 
 File read completed
