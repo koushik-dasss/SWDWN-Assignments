@@ -8,3 +8,11 @@ Find User:
 
 node Q2_i.js
 Boat { hasMotor: true, motorCount: 2, hullColor: 'Blue' }
+
+node Q2_ii.js
+[9:47:34 PM] Server started
+[9:47:34 PM] Database connected
+
+node Q2_iii_parent.js
+Message from parent:  Hello Child Process
+Message from child:  Hello Parent Process
