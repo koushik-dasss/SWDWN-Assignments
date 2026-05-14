@@ -1,0 +1,10 @@
+node Q1.js
+User saved successfully
+User saved successfully
+All Users: 
+[ { name: 'Koushik', age: 14 }, { name: 'Roman', age: 69 } ]
+Find User: 
+{ name: 'Koushik', age: 14 }
+
+node Q2_i.js
+Boat { hasMotor: true, motorCount: 2, hullColor: 'Blue' }
